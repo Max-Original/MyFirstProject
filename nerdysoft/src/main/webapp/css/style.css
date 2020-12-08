@@ -1,0 +1,84 @@
+.main {
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	margin-left: -300px;
+	margin-top: -282px;
+	height: 565px;
+	width: 600px;
+	
+}
+
+.first {
+	width: 250px;
+	height: 400px;
+	text-align: center;
+}
+
+.canvasDiv {
+	width: 320px;
+	height: 530px;
+	float: right;
+	margin-top: -410px;
+	
+}
+
+.search{
+	
+	height: 140px;
+	width: 100px;
+	margin-left: 83px;
+}
+
+* {
+	margin: 10px;
+}
+
+label {
+	display: inline-block;
+	text-align: center;
+	vertical-align: middle;
+}
+
+input {
+	display: inline-block;
+}
+
+input[type=number] {
+	width: 50px;
+	border: solid 2px black;
+	border-radius: 10px;
+	text-align: center;
+}
+
+input[type=number]:focus {
+	width: 60px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+	text-align: center;
+}
+
+input[type=button] {
+	background-color: #fff;
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 7px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
+
+canvas {
+	width: 300px;
+	height: 510px;
+	border: 1px solid black;
+}
+
+input[type=submit] {
+	background-color: #fff;
+	border: solid 2px black;
+	border-radius: 10px;
+	padding: 7px 15px;
+	text-decoration: none;
+	margin: 4px 2px;
+	cursor: pointer;
+}
